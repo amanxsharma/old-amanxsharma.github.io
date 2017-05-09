@@ -1,0 +1,41 @@
+<html>
+    <style>
+body {
+    font-family: "Lato", sans-serif;
+    background-image: url("https://drive.google.com/uc?id=0Bz4qstqlL0qjaE80b1RMRlY4WGc");
+    color: white;
+}
+a {
+    color:white;
+    font-size:15;
+}
+</style>
+<body>
+Projects 
+<br>
+Masters of Science - Computer Science
+<li><a href="https://drive.google.com/uc?id=0Bz4qstqlL0qjd3Nwcjd6WXhxWWc">Student Academic Portal</a></li>
+<li><a href="https://drive.google.com/uc?id=0Bz4qstqlL0qjVXliVkx6b0szeUE">Project Proposal - Cyber Insurance</a></li>
+
+<br>
+
+Under-Graduation - Electronics and Telecommunication
+<li><a href="https://drive.google.com/uc?id=0Bz4qstqlL0qjWFBieEtHYUVqWmc">Simulation of 802.11 wireless network using tool-Qualnet.</a></li>
+<li>Grid and Maze Solver Robot using Arduino</li>
+<li>Line Follower Robot</li>
+<li>Configurations of Bipolar Junction Transistor</li>
+<li>Anti-Theft Alarm</li>
+<li>Gates Emulator using Microcontroller 8086</li>
+
+<br><br>
+Presentations
+<li><a href="https://drive.google.com/uc?id=0Bz4qstqlL0qjV3pTTmJDZVRlQ1E">Cyber Insurance - Information Warfare</a></li>
+<li><a href="https://drive.google.com/uc?id=0Bz4qstqlL0qjOFZvdFJ6QU9NbHM">Finding Protocol Manipulation attacks - Network Security</a></li>
+<li><a href="https://drive.google.com/uc?id=0Bz4qstqlL0qjd3djb2s5QmpHcVU">Quantifying Location Privacy - Internet Security</a></li>
+<li>Robotics - IIT Mumbai (no presentation available)</li>
+
+<br>
+Survey Paper
+<li><a href="https://drive.google.com/uc?id=0Bz4qstqlL0qjbmw4bWVQc3o4d0k">Quantifying Location Privacy - Network Security</a></li>
+</body>
+</html>
