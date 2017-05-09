@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<style>
+body {
+    font-family: "Lato", sans-serif;
+    background-image: url("https://drive.google.com/uc?id=0Bz4qstqlL0qjaE80b1RMRlY4WGc");
+    color: white;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+#myname {
+      position: absolute;
+      width: 95%;
+      top: 200px;
+      text-align: right;
+      
+}
+#mypic {
+    width:145px;
+    height:175px;
+    float:right;
+}
+.zoomin img{ 	
+	
+    height: 35px; 
+    width: 35px; 
+    -webkit-transition: all 1s ease; 
+    -moz-transition: all 1s ease; 
+    -ms-transition: all 1s ease; 
+    transition: all 1s ease; 
+    } 
+    .zoomin img:hover { 
+        width: 50px; 
+        height: 50px; 
+        } 
+
+</style>
+<script>
+/*code for text on home page starts*/
+var res;
+var timer_is_on = 0;
+var i = 0;
+var str0 = "Hi !"
+var str = "I am Aman Sharma, a Creative Developer from India who is interested in Software Design, Software Development Process. I work across the full  stack with proficiency in C++, Python, C and Oracle PL-SQL.";
+var str2 = "Formerly Accenture's Software Engineering Analyst. Currently pursuing Masters of Science with Computer Science as my major. Graduating in May 2018.";
+var str3 = "Please reach out if my profile meets your requirement for full time job opportunity.";
+
+function timedCount() {
+    res0 = str0.charAt(i);
+	res = str.charAt(i);
+	res2 = str2.charAt(i);
+	res3 = str3.charAt(i);
+	document.getElementById("txt0").innerHTML += res0;
+    document.getElementById("txt").innerHTML += res;
+	document.getElementById("txt2").innerHTML += res2;
+	document.getElementById("txt3").innerHTML += res3;
+    i = i +1;
+    setTimeout(function(){ timedCount() }, 15);
+}
+
+function startCount() {
+    if (!timer_is_on) {
+        timer_is_on = 1;
+        timedCount();
+    }
+}
+
+function stopCount() {
+    clearTimeout(t);
+    timer_is_on = 0;
+}
+/*code for text on home page ends*/
+
+
+/*code for navigation menu starts*/
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+/*code for navigation menu ends*/
+</script>
+</head>
+<body onload="startCount()">
+
+<!--MENU-->
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="https://drive.google.com/uc?id=0Bz4qstqlL0qjN1ltWlVIMTNEd0k">About Me</a>
+  <a href="https://drive.google.com/open?id=0Bz4qstqlL0qjRnVrQldIQ2xRNkU" target="_blank">Resume</a>
+  <a href="#">Education</a>
+  <a href="https://drive.google.com/uc?id=0Bz4qstqlL0qjTkxPdElCMXFlRUk">Projects</a>
+  <a href="#">Work Experience</a>
+  <a href="#">Certifications</a>
+</div>
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
+
+<!--TEXT ON HOME PAGE-->
+<p id = "txt0" style="text-align:center;position:absolute;top:250px;left:100px;"></p>
+<p id = "txt" style="text-align:center;position:absolute;top:300px;left:100px;"></p>
+<p id = "txt2" style="text-align:center;position:absolute;top:350px;left:100px;"></p>
+<p id = "txt3" style="text-align:center;position:absolute;top:400px;left:100px"></p>
+
+<!--IMAGE ON RIGHT-->
+<img id = "mypic" src = "https://drive.google.com/uc?id=0Bz4qstqlL0qjY0lXcWtRdUthOUk">
+
+<!--changed the google drive image url, change open to uc in the URL-->
+
+<!--ICONS on the RIGHT-->
+<div class="zoomin">
+<a href = "" target="_blank" onclick = "document.location = 'https://www.linkedin.com/in/aman-sharma-7910b438'"><img id = "linkedin" style = "position: absolute;right: 10px;bottom: 10px;" src="https://drive.google.com/uc?id=0Bz4qstqlL0qjX2MxSUh4MlF0ZVk"></a>
+<a href = "" target="_blank" onclick = "document.location = 'http://itslogical-itslogical.blogspot.com/'"><img id = "blogspot" style = "position: absolute;right: 60px;bottom: 10px;" src="https://drive.google.com/uc?id=0Bz4qstqlL0qjdGt4S0hnMmhqZEk"></a>
+<a href = "" target="_blank" onclick = "document.location = 'https://github.com/amanxsharma/'"><img id = "git" style = "position: absolute;right: 110px;bottom: 10px;" src="https://drive.google.com/uc?id=0Bz4qstqlL0qjb1ZyRENxVG5Dbm8"></a>
+<a href = "" target="_blank" onclick = "document.location = ''"><img id = "facebook" style = "position: absolute;right: 160px;bottom: 10px;" src="https://drive.google.com/uc?id=0Bz4qstqlL0qjUW5OdkdoZlVGeGc" ></a>
+<a href = "" target="_blank" onclick = "document.location = ''"><img id = "instagram" style = "position: absolute;right: 210px;bottom: 10px;" src="https://drive.google.com/uc?id=0Bz4qstqlL0qjQWFkN1diU01Zd3c"></a>
+</div>
+
+<!-- Email on the left -->
+<p style="position:absolute;left:10px;bottom:0px;color:grey" onmouseover = "this.style.color='white'" onmouseout = "this.style.color='grey'">aman.sharma728@gmail.com</p>
+
+
+
+<br>
+<a href="#" onclick="document.location = 'https://drive.google.com/uc?id=0Bz4qstqlL0qjWnJEN3JRNGVSTjQ'">Click Me</a> 
+
+     
+</body>
+</html> 
