@@ -50,6 +50,11 @@ function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
 }
 /*code for navigation menu ends*/
+      
+function popup()
+      {
+        document.getElementById('pop').style.display = 'block';
+      }
 </script>
 </head>
 <body>
@@ -82,7 +87,7 @@ function closeNav() {
   </div>
   <div style="float:right; width:60%;">
     <ul>Awards
-      <li>Best Team Award | 2015 | Accenture</li>
+      <li onmouseover = "popup();">Best Team Award | 2015 | Accenture</li>
       <li>Spot Award  | 2015 | Accenture</li>
       <li>Star of the Month Award | 2014 | Accenture</li>
       <li>Best Performer | 2008-09 | Congress, Indian Political Party</li>
@@ -103,8 +108,12 @@ function closeNav() {
     <ul>Competitions
       <li>Programming Microprocessor 8085 | Won over 500 participants</li>
       <li>Kho-Kho (Indian Game) Champion for 5 years in a row</li>
-    </ul>
-    
+    </ul>    
+  </div>
+  
+  <div id = "parent">
+    <div id = "pop" style="diplay:none">Hey
+    </div>
   </div>
 </body>
 </html>
