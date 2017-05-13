@@ -40,10 +40,10 @@
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 }
-#tooltip1 { position: relative; }
-#tooltip1 span { display: none; color: #FFFFFF; }
-#tooltip1:hover span { display: block; position: absolute; 
-  width: 200px;  height: 50px; left: 200px; top: -10px; color: #FFFFFF; padding: 0 5px; }
+.tooltip1 { position: relative; }
+.tooltip1 span { display: none; color: #FFFFFF; }
+.tooltip1:hover span { display: block; position: absolute; 
+  width: 200px;  height: 50px; left: 400px; top: -10px; color: #FFFFFF; padding: 0 5px; }
   </style>
     <script>
   /*code for navigation menu starts*/
@@ -88,8 +88,8 @@ function closeNav() {
   </div>
   <div style="float:right; width:60%;">
     <ul>Awards
-      <li id = "tooltip1">Best Team Award | 2015 | Accenture<span>Hey Ho</span></li>
-      <li>Spot Award  | 2015 | Accenture</li>
+      <li class = "tooltip1">Best Team Award | 2015 | Accenture<span>Hey Ho</span></li>
+      <li class = "tooltip1">Spot Award  | 2015 | Accenture<span>blah blah</span></li>
       <li>Star of the Month Award | 2014 | Accenture</li>
       <li>Best Performer | 2008-09 | Congress, Indian Political Party</li>
       <li>Best Student of the year | 2009 | SNVN, Higher Secondary School</li>
