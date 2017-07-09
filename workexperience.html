@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<!-- saved from url=(0046)file:///C:/Users/Alex/Documents/Bootstrap.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+ <title>Bootstrap</title>
+    <link rel="shortcut icon" type="image/x-icon" href="http://getbootstrap.com/favicon.ico">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <meta charset="utf-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+    /* You can put custom styles in here */
+    p.my-style { color: #112233; font-weight: 200; font-size: 15px;}
+    div.push { margin-bottom: 15px;}
+    p.bodytext { font-size: 1513:38 15/06/15px;}
+    a.active {color: white;}
+    </style>
+  </head>
+  <body>
+    <div id="tabs" class ="navbar navbar-inverse navbar-static-top" role="tablist">
+      
+      <a role="presentation" class ="navbar-brand" data-toggle="tab" href="#day1">Madison Logic</a>
+      <a role="presentation" class ="navbar-brand" data-toggle="tab" href="#day5">University of South Carolina - Columbia</a>
+      <a role="presentation" class ="navbar-brand" data-toggle="tab" href="#day2">Accenture</a>
+      <a role="presentation" class ="navbar-brand" data-toggle="tab" href="#day3">Ericsson</a>
+      <a role="presentation" class ="navbar-brand" data-toggle="tab" href="#day4">BSNL</a>
+      
+    </div> 
+    <div class="container">
+      <u><h1></i>Work Experience</h1></u>
+      <em>An overview of my 4 years of work experience
+</em>      <div class="push"></div>
+      <div class="jumbotron">
+        
+      <div class="tab-content">
+        <div role="tabpanel" class="tab-pane active" id="day1">
+          <h2>Madison Logic | NYC,USA - Internship (3 Months)</h2>
+          <p class="bodytext">           
+      Developing Node.js applications using Express, async modules with server less deployments using Lambda functions with full connectivity to No SQL DB using DynamoDB amazon web service.
+          </p>
+      <h2>Technologies:</h2>
+      <p class="bodytext">Node.js, Amazon Web Services (Lambda function, S3, API Gateway, DynamoDB, EC2), Git, Bitbucket</p>
+        </div>
+        <div role="tabpanel" class="tab-pane" id="day2">
+          <h3>Accenture | Mumbai, India - Full time (3.2 years)</h3> 
+          <h4>Software Engineering Analyst</h4>
+          <p class="bodytext"> <ul>
+              <li>Led a group of 3 engineers in the design, and development of C++ based software solutions.</li>
+<li>Created, delivered, and maintained scalable system architecture to support a high-availability internet site for Concur with various internal applications.</li>
+<li>Automated manual processes using Macro in MS Excel to save client’s full time efforts.</li></ul> 
+          <h4>Associate Software Engineering Analyst</h4>
+          <ul>
+              <li>Built databases and table structures following n-tier architecture methodology for web applications.</li>
+              <li>Monitored and updated back-end data by inter-communicating between C++ and Oracle 11g.</li>
+          </ul>
+          </p> 
+          <h4>Technologies</h4>
+          <p class="bodytext">C++, Oracle Pl-SQL, C, Concur, Cognos, SQL, HTML5, CSS, JS, VB Script, SharePoint, Advanced Microsoft office</p> 
+        </div>
+        <div role="tabpanel" class="tab-pane" id="day3">
+            <h3>Ericsson | Indore, India - Internship (2 months) </h3>
+            <p class="bodytext"> 
+                <ul>
+                    <li>Developed shared central authentication system in C++ for intranet applications.</li>
+                    <li>Worked closely with clients to establish problem specifications and system designs.</li>
+                </ul>
+            </p>
+            <h4>Technologies</h4>
+          <p class="bodytext">C, C++, RDBMS, Microsoft office</p> 
+        </div>
+        <div role="tabpanel" class="tab-pane" id="day4">
+            <h3>BSNL | Indore, India - Internship (2 months) </h3>
+            <p class = "bodytext">
+                <ul>
+                    <li>Oversaw major new enhancements to existing software systems.</li>
+                    <li>Maintained existing applications and designed and delivered new applications.</li>
+                </ul>
+            </p>
+            <h4>Technologies</h4>
+          <p class="bodytext">C, C++, SQL, Core Java</p> 
+        </div>
+        <div role="tabpanel" class="tab-pane" id="day5">
+            <h3>Graduate Teaching Assistant (1 year and continuing) </h3>
+            <p class = "bodytext">
+                <ul>
+                    <li>Taught HTML5, CSS3 and MIT App Inventor</li>
+                    <li>Taught VB scripting using MS Excel to more than 200 students.</li>
+                </ul>
+            </p>
+             <h4>Technologies</h4>
+          <p class="bodytext">HTML, CSS, JS, MIT App Inventor</p>
+        </div>
+      </div>
+    </div>
+    <script>
+    $(document).ready(function() {
+      $('#tabs a').click(function (e) {
+        e.preventDefault()
+        $(this).tab('show')
+      })
+      $("a[href='#introduction'").click();
+    });
+   </script>
+  </body>
+</html>
